@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.Container {
+    height: 100vh;
+ 
+}
+
+#Top {
+    border: 3px solid #000000;
+    height: 25%;
+    margin: 3%;
+    padding: 5px;
+    position: relative;
+
+}
+
+#Middle {
+    border: 3px dotted #000000;
+    height: 25%;
+    margin: 3%;
+
+}
+
+#Bottom {
+    width: 50%;
+    height: 25%;
+    box-shadow: 5px 5px 5px #b8b8b8;
+    margin: 0 auto;
+    border: 1px solid #b8b8b8;
+
+}
+
+#purpleBox {
+    height: 120px;
+    width: 40px;
+    background: #ad1df0;
+    float: left;
+    margin: 5px;
+    position: absolute ;
+    bottom: 0
+}
+
+#greenBox {
+    height: 150px;
+    width: 300px;
+    background: #14e01e;
+    float: left;
+    margin: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+
+
